@@ -1,4 +1,32 @@
 <?php
+//how to use
+//require_once './IMooc/Page.class.php';
+//require_once './IMooc/db.class.php';
+////数据库中的总条数:total_rows;
+////每一页显示的条数:per_page_rows
+//$sql="select count(*) from go_member";
+//$count_result = $dbObj->query($sql);
+//$total_rows = mysql_fetch_row($count_result)[0];
+//$per_page_rows=2;
+//
+//$page = new IMooc\Page($total_rows,$per_page_rows);
+//$sql="select * from go_member {$page->limit}";
+//$rt=mysql_query($sql);
+//echo '<table width="1000" border="1">';
+//while (!!$row=mysql_fetch_assoc($rt)) {
+//    echo '<tr>';
+//    echo '<td>'.$row['uid'].'</td>';
+//    echo '<td>'.$row['username'].'</td>';
+//    echo '<td>'.$row['email'].'</td>';
+//    echo '<td>'.$row['mobile'].'</td>';
+//    echo '</tr>';
+//}
+//echo '<tr><td colspan="5" align="right">'.$page->showpage().'</td></tr>';
+//echo '</table>';
+//
+
+
+
 /*
  * 分页类来源于开源中国
  *modifier  tinytoobad
